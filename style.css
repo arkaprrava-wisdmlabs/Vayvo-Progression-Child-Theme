@@ -72,7 +72,9 @@ h3.progresison-studios-no-author-posts-list {
 .woocommerce .col2-set#customer_login .col-2{
 	display: block !important;
 }
-
+body #content-pro .width-container-pro .woocommerce .col2-set#customer_login input[type=text] {
+	color: #000 !important;
+}
 #content-pro .woocommerce table.shop_table thead tr th,
 #content-pro .woocommerce table.shop_table tbody tr td {
 	color: #ffffff !important;
