@@ -59,22 +59,28 @@ li.bbp-forum-reply-count, li.bbp-forum-freshness, li.bbp-topic-voice-count, li.b
 .bbpress div.bbp-meta a.bbp-reply-permalink {font-size: 10px !important;}
 .bbpress div.bbp-meta .bbp-admin-links a {text-transform: capitalize !important;}
 .bbpress div.bbp-meta .bbp-admin-links {background: #eaeaea !important; color: #eaeaea !important;}
+/* visibility of watchlist in watchlist tab of authors page*/
 .progression-studios-isotope-animation{opacity:1;}
+/* visibility of comments in comments tab of authors page*/
 h3.progresison-studios-no-author-posts-list {
 	padding:10px 0px;
 	font-size:20px;
 	font-weight:300;
 	color: white;
 }
+/* side by side display of registration form and login form*/
 .woocommerce .col2-set#customer_login {
 	display: inline-flex;
 }
+/* visibility of registration form*/
 .woocommerce .col2-set#customer_login .col-2{
 	display: block !important;
 }
+/* change  the input text color of the input fields of login and registraion forms*/
 body #content-pro .width-container-pro .woocommerce .col2-set#customer_login input[type=text] {
 	color: #000 !important;
 }
+/* changed the color and alignment of table data in all tabs of my acccount page for logged in user*/
 #content-pro .woocommerce table.shop_table thead tr th,
 #content-pro .woocommerce table.shop_table tbody tr td {
 	color: #ffffff !important;
